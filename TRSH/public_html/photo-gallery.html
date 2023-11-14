@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <style>
+            body{
+                background: url('images/kk.jpg');
+                
+            }
+            h1{
+                font-size: 35pt;
+                text-align: center;
+                font-family: Veranda;
+                color: #001a4d;
+            }
+             p{
+                font-size: 20pt;
+            }
+            h3{
+                font-size: 25pt;
+            }
+            footer {
+                text-align: center;
+                padding: 3px;
+                background-color:  #4775d1;
+                color: white;
+            }
+            
+            h4
+            {
+                font-size: 30px;
+            }
+       
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet" href="C:\Users\Thabang\OneDrive\Desktop\site\css">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    </head>
+    <body>
+         <div class="header">
+             <div class = "nav">
+                <a href="About-us.html" > <img src="images/trsh.png" alt="logo" height="150" width="250"></a>
+        <div class= "nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html" > Home-Page</a></li>
+                        <li><a href="about-us.html" > About-Us</a></li>
+                        <li><a href="our-work.html" > Our-Work</a></li>
+                        <li><a href="photo-gallery.html" > Photo-Gallery</a></li>
+                        <li><a href="get-involved.html" > Get-Involved</a></li>
+                        <li><a href="contact-us.html" > Contact-Us</a></li>
+                    </ul>
+        </div>
+                <i class="fa fa-bars" onclick=" showMenu()"></i>
+            </div>
+             <h1> Here are our tutors:</h1>
+             <div class="row">
+                <div class="tutors-col">
+                    <img src="images/staff1.jpg" alt="staff1" height="200" width="350">
+                    <div>
+                        <p> I am a Psychology Master's student. Teaching and learning are two of my greatest passions. <br>
+                            I've dealt with children that have a range of learning disabilities (slow development, ADHD). <br>
+                            I worked as a tutor at the<br> University of Pretoria. I was the third<br> year Psychology head tutor. <br>
+                            My tutoring abilities were recognized<br> by the department. Furthermore, because of my psychology 
+                            education, <br>I am able to identify each person as unique and recognize that each person learns in 
+                            a different way.<br> As I've worked with my kids on basic developmental skills, I've developed a lot of 
+                            patience. </p>
+                        <h3> Caty White </h3>
+                    </div>
+                  </div>
+                 <div class="tutors-col">
+                    <img src="images/staff2.jpg" alt="staff2" height="200" width="350">
+                    <div>
+                        <p> In 2016, I was the head girl at College. <br>
+                            In 2016, I graduated with six distinctions and was consistently placed among the top three <br>
+                            academically in my class. The IEB was the governing authority in charge of my matric certificate. <br>
+                            At the University of Pretoria, I am currently pursuing a BSc(Hons) in Genetics. I am very aware of <br>
+                            the difficulties that high school kids face, which is why I want to make the learning experience as <br>
+                            pleasurable as possible for them. I also understand how challenging first-year Biological Sciences<br>
+                            may be, and I'd like to help in any way I can.</p>
+                         <h3> Celine Stewart </h3>
+                 </div>
+                 </div>
+                  <div class="tutors-col">
+                    <img src="images/staff3.jpg" alt="staff3" height="200" width="350">
+                    <div>
+                        <p> I am now pursuing a mechanical engineering bachelor's degree. <br>
+                            I hope that the knowledge I get from this course will enable me to be well-versed in dealing<br>
+                            with the difficulties that the world faces, particularly those that we, as youth, face. <br>
+                            In light of my objectives, I appreciate the time I spend interacting with young people <br>
+                            from various backgrounds in order to gain a greater knowledge of how life is lived in various<br>
+                            locations. This is accomplished via tutoring children and participating in youth organizations <br>
+                            that allow me to meet and work with people from all areas of life.<br> </p>
+                        <h3> Cristopher Nel </h3>
+                    </div>
+                  </div>
+             </div>
+              
+        <div class="footer">
+            <h4>About Us</h4>
+            <p>Contact Us For More Information</p>
+            <div class="icons">
+                <i class="fa fa-facebook" style="font-size:25px;"></i>
+                <i class="fa fa-twitter" style="font-size:25px;"></i>
+                <i class="fa fa-instagram" style="font-size:25px;"></i>
+                <i class="fa fa-linkedin" style="font-size:25px;"></i>
+            </div>
+            <!-- w3schools.com, 2021 -->
+               
+        </div> 
+               <!-- java script-->       
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+                
+    </script>    
+    </body>
+</html>
+
+
+
+
+      <!-- IIE: WEDE StudentManual. 1st ed. 2013-->
